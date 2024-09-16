@@ -1,25 +1,27 @@
-# Ignore everything inside the all_plots directory
-all_plots/**
-# Ignore everything inside the all_plots directory
+# Ignore everything in the all_plots directory
 all_plots/*
-
-# Don't ignore Python files (.py) in all_plots and its subdirectories
+**.png
+# Except for Python files (.py) in all_plots and its subdirectories
 !all_plots/**/*.py
-
+# Except for subdirectories in all_plots
+!all_plots/**/
 # Specifically ignore .fif files in all_plots
 all_plots/**/*.fif
 
-
-# # Don't ignore Python files (.py)
-# !all_plots/*.py
-
-# Don't ignore subdirectories
-!all_plots/**/
-
-# # Specifically ignore .fif files in all_plots
-# all_plots/*.fif
-
-
 # Ignore everything in the EDF+ directory
 EDF+/*
-!EDF+/
+# Except for subdirectories in EDF+
+!EDF+/ 
+
+# I want to rename folder, so include plots:
+
+# Ignore everything in the plots directory
+plots/*
+# Except for Python files (.py) in plots and its subdirectories
+!plots/**/*.py
+# Except for subdirectories in plots
+!plots/**/
+# Specifically ignore .fif files in plots
+plots/**/*.fif
+# Ignore all .png files in plots
+plots/**/*.png
