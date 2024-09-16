@@ -1,0 +1,25 @@
+# Ignore everything inside the all_plots directory
+all_plots/**
+# Ignore everything inside the all_plots directory
+all_plots/*
+
+# Don't ignore Python files (.py) in all_plots and its subdirectories
+!all_plots/**/*.py
+
+# Specifically ignore .fif files in all_plots
+all_plots/**/*.fif
+
+
+# # Don't ignore Python files (.py)
+# !all_plots/*.py
+
+# Don't ignore subdirectories
+!all_plots/**/
+
+# # Specifically ignore .fif files in all_plots
+# all_plots/*.fif
+
+
+# Ignore everything in the EDF+ directory
+EDF+/*
+!EDF+/
