@@ -25,3 +25,15 @@ plots/*
 plots/**/*.fif
 # Ignore all .png files in plots
 plots/**/*.png
+
+all_plots/
+/all_plots/
+all_plots/*
+/all_plots/*
+all_plots/**
+/all_plots/**
+bad_data/Incomplete data/062000/062000.json
+bad_data/
+bad_data/**
+emotion_data/
+unmarked_attention_data/
