@@ -37,3 +37,4 @@ bad_data/
 bad_data/**
 emotion_data/
 unmarked_attention_data/
+*.fif
