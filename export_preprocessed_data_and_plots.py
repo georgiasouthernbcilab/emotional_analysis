@@ -334,7 +334,7 @@ def main(parent_directory, output_directory):
         # if plot_topomap:
         #     plot_topomap(edf_file, output_directory)
 if __name__ == '__main__':
-    parent_directory = 'EDF+'
+    parent_directory = 'emotion_data'
 
     # Create a timestamped subfolder in the output directory
     timestamp = datetime.now().strftime('%y%m%d_%H%M%S')
